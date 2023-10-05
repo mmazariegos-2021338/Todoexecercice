@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import {MiBoton} from './componentes/MiBoton';
+import { specialCharMap } from '@testing-library/user-event/dist/keyboard';
 
 function App() {
   return (
@@ -15,11 +17,32 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Aprende React
         </a>
+        <MiBoton />
+        <MiBoton />
+        <MiBoton />
+        
+        if{incluide}
+            charcacter = characterList + numbers 
+
+        If {incluideSysbols} {
+          characterList = characterList + specialCharMap
+
+        }
+
+       
       </header>
+      
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
